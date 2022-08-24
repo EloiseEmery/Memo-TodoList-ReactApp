@@ -1,3 +1,5 @@
-# Titre du site Web ou application
+# MEMO TP2
 
-Court texte présentant votre site Web/application.
+Application Web monopage développée avec librairie React :  Gestion d'une liste de tâche.
+
+Hosting URL Firebase : https://memo-e-emery.web.app

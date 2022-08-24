@@ -1,0 +1,19 @@
+.Taches {
+	padding-top: 25px;
+
+	#error {
+		color: red;
+	}
+
+	form {
+		border-bottom: 2px solid black;
+		padding-top: 10px;
+		
+		input {
+			width: 100%;
+			padding: 10px 5px 10px 5px;
+			background-color: rgba(175, 175, 175, 0.239);
+			border: none;
+		}
+	}
+}

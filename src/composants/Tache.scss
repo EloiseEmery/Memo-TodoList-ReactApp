@@ -1,0 +1,58 @@
+.Tache {
+	border-bottom: 1px solid rgba(128, 128, 128, 0.657);
+	color: rgb(0, 48, 153);
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0 15px 15px;
+
+	&:hover {
+		background-color: rgba(128, 128, 128, 0.105);
+	}
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+
+		.checkIcone {
+			color: rgba(128, 128, 128, 0.289);
+			margin: 0 15px 0 15px;
+			width: 20px;
+
+			&:hover {
+				color: rgb(151, 219, 117);
+				cursor: pointer;
+			}
+		}
+
+		small {
+			padding-top: 3px;
+		}
+
+		.deleteTache {
+			margin: 0 15px 0 15px;
+			width: 20px;
+
+			&:hover {
+				color: rgb(164, 10, 10);
+				cursor: pointer;
+			}
+		}
+
+	}
+	
+	&.complete {
+		text-decoration: line-through;
+		opacity: 0.5;
+		color: rgb(88, 88, 88);
+
+		.checkIcone {
+			color: rgba(131, 0, 0, 0.837);
+			opacity: 1;
+
+			&:hover {
+				color: rgb(149, 149, 149);
+				cursor: pointer;
+			}
+		}
+	}
+}

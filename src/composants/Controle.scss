@@ -1,0 +1,29 @@
+.Controle {
+	background-color: rgb(180, 180, 180);
+	border-top: solid 4px black;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 15px 15px 15px;
+
+	span {
+		padding-top: 10px;
+	}
+
+	.delete {
+		margin-top: 10px;
+
+		&:hover {
+			color: rgb(164, 10, 10);
+			cursor: pointer;
+		}
+	}
+	
+	.ToggleButton {
+		background-color: rgba(100, 100, 100, 0.703);
+		color: white;
+
+		&:hover {
+			background-color: rgba(222, 222, 222, 0.281);
+		}
+	}
+}
